@@ -1,0 +1,86 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doro.moc3",
+		"Textures": [
+			"Doro.2048/texture_00.png"
+		],
+		"Physics": "Doro.physics3.json",
+		"DisplayInfo": "Doro.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "默认",
+				"File": "Expressions/Running OFF.exp3.json"
+			},
+			{
+				"Name": "吐舌",
+				"File": "Expressions/TongueOut.exp3.json"
+			},
+			{
+				"Name": "黑脸",
+				"File": "Expressions/Exp1.exp3.json"
+			},
+			{
+				"Name": "无语",
+				"File": "Expressions/Exp2.exp3.json"
+			},
+			{
+				"Name": "感叹号",
+				"File": "Expressions/Exp3.exp3.json"
+			},
+			{
+				"Name": "问号",
+				"File": "Expressions/Exp4.exp3.json"
+			},
+			{
+				"Name": "墨镜",
+				"File": "Expressions/Exp5.exp3.json"
+			},
+			{
+				"Name": "袋子",
+				"File": "Expressions/Exp6.exp3.json"
+			},
+			{
+				"Name": "思考",
+				"File": "Expressions/Exp7.exp3.json"
+			},
+			{
+				"Name": "星星眼",
+				"File": "Expressions/Exp8.exp3.json"
+			},
+			{
+				"Name": "失去高光",
+				"File": "Expressions/Highlight OFF.exp3.json"
+			}
+
+		],
+		"Motions": {
+			"跑": [
+				{
+					"File": "motions/Idle.motion3.json"
+				}
+			],
+			"摸摸": [
+				{
+					"File": "motions/touch.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+	
+}

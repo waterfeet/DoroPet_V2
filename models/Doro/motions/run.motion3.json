@@ -1,0 +1,44 @@
+{
+    "Version": 3,
+    "Meta": {
+        "Duration": 0.5,
+        "Fps": 60.0,
+        "Loop": true,
+        "AreBeziersRestricted": true,
+        "CurveCount": 4,
+        "TotalSegmentCount": 14,
+        "TotalPointCount": 34,
+        "UserDataCount": 0,
+        "TotalUserDataSize": 0
+    },
+    "Curves": [
+        {
+            "Target": "Parameter",
+            "Id": "AnimLine",
+            "Segments": [
+                0.05, 0, 1, 0.089, 0, 0.128, 1, 0.167, 1, 1, 0.211, 1, 0.256, 0, 0.3, 0, 1, 0.339, 0, 0.378, 1, 0.417, 1, 1, 0.461, 1, 0.50, 0
+            ]
+        },
+        {
+            "Target": "Parameter",
+            "Id": "AnimLoading1",
+            "Segments": [
+                0.05, -1, 0, 0.3, 0, 0, 0.5, 1, 0
+            ]
+        },
+        {
+            "Target": "Parameter",
+            "Id": "AnimLoading2",
+            "Segments": [
+                0.05, 0, 0, 0.3, 1, 0, 0.5, 1, 0
+            ]
+        },
+        {
+            "Target": "Parameter",
+            "Id": "ParamStep",
+            "Segments": [
+                0, -10, 1, 0.039, -10, 0.078, 10, 0.117, 10, 1, 0.161, 10, 0.206, -10, 0.25, -10, 1, 0.309, -10, 0.358, 10, 0.417, 10, 1, 0.46, 10, 0.5, -10
+            ]
+        }
+    ]
+}
